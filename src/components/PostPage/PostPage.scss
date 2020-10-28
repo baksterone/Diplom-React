@@ -1,0 +1,38 @@
+.article-page {
+    padding: 100px 0;
+    .header {
+      display: flex;
+      align-items: center;
+      font-size: 25px;
+    }
+    .who {
+      display: flex;
+      align-items: center;
+      .info {
+        margin-left: 10px;
+        span {
+          display: block;
+        }
+        .userN {
+          font-size: 16px;
+          font-weight: bold;
+          cursor: pointer;
+          transition: 170ms ease;
+          &:hover {
+            color: #be0016;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .buttons {
+      display: flex;
+      align-items: center;
+      div {
+        margin-left: 10px;
+      }
+    }
+    .header-article {
+      padding: 20px 0;
+    }
+  }

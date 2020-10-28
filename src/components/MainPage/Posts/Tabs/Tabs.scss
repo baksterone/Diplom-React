@@ -1,0 +1,26 @@
+.tabs-container {
+  header {
+    background: none;
+    box-shadow: none;
+  }
+  button {
+    outline: none;
+  }
+  .MuiTab-root {
+    font-size: 14px;
+    color: #444;
+    border-radius: 4px;
+  }
+  .MuiTab-textColorPrimary.Mui-selected {
+    color: green;
+  }
+  .MuiTabs-scroller,
+  .MuiTabs-scrollable {
+    .MuiTabs-indicator {
+      background-color: green;
+    }
+  }
+  hr {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,22 @@
+.user-info {
+  text-align: center;
+  background: #f3f3f3;
+  padding: 2rem 0 1rem;
+
+  .user-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    font-weight: 700;
+  }
+
+  .action-btn {
+    float: right;
+    color: #999;
+    border: 1px solid #999;
+  }
+}

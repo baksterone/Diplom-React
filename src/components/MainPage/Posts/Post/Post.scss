@@ -1,0 +1,90 @@
+.post {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 0;
+
+  .who-when {
+    display: block;
+    position: relative;
+    font-weight: 300;
+
+    & img {
+      display: inline-block;
+      vertical-align: middle;
+      height: 32px;
+      width: 32px;
+      border-radius: 30px;
+    }
+
+    & .info {
+      margin: 0 1.5rem 0 0.3rem;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1rem;
+
+      & p {
+        color: #5cb85c;
+        display: block;
+        font-weight: 600;
+        margin-bottom: 0;
+      }
+
+      & .when {
+        color: #bbb;
+        font-size: 0.8rem;
+        display: block;
+      }
+    }
+
+    & .like-btn {
+      float: right;
+      cursor: pointer;
+      border: chartreuse 1px solid;
+      padding: 0.25rem 0.5rem;
+      border-radius: 0.2rem;
+      font-size: small;
+      background-color: #fff;
+
+      & svg {
+        font-size: small;
+        color: chartreuse;
+        margin-right: 2px;
+      }
+
+      &:hover {
+        background-color: chartreuse;
+        color: #fff;
+
+        svg {
+          color: #fff;
+        }
+      }
+
+      &:focus {
+        background-color: chartreuse;
+        color: #fff;
+
+        svg {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .post-tag {
+    float: right;
+    max-width: 50%;
+    cursor: pointer;
+
+    .MuiChip-root {
+      cursor: pointer;
+      &:hover {
+        color: green;
+        border: 1px solid green;
+      }
+    }
+  }
+
+  span{
+    font-size: small;
+  }
+}
